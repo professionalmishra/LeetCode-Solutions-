@@ -1,0 +1,24 @@
+#just reverse the string using while loop through algorithm of while loop sum*10+remainder
+#in the String case we just reverse the string using StringBuilder and try the string....!!
+#easy problem
+class Solution {
+    public boolean isPalindrome(int x) {
+        boolean found=false;
+        int sum=0;
+        int original=x;
+while(x>0){
+    int remainder=x%10;
+    sum=sum*10+remainder;
+    x=x/10;
+
+
+}
+
+if(original==sum){
+    return true;
+}
+else{
+    return false;
+}
+ }
+}
