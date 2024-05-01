@@ -1,0 +1,9 @@
+#simply use indexOf() function to get the first occurence and for last occurence we'll use lastindexOf() function
+
+class Solution {
+    public int strStr(String haystack, String needle) {
+        int index=haystack.indexOf(needle);
+        
+        return index;
+    }
+}
